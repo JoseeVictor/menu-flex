@@ -20,6 +20,10 @@ header{
     align-items: center;
 }
 
+h1{
+    font-size: 20px;
+}
+
 
 header ul{
     display: flex;
