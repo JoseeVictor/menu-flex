@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     list-style: none;
-    box-sizing: border-box;
+    text-decoration: none;
 }
 
 header{
@@ -26,17 +26,22 @@ header ul{
     align-items: center;
 }
 
-header li{
+
+header li {
     margin-right: 30px;
 }
 
-.sobre{
+a{
+    color: black;
+}
+
+.sobre a{
     background-color: #5BC241;
     padding: 10px 8px;
     color: white;
 }
 
-.cadastre-se{
+.cadastre-se a{
     background-color: #5BC241;
     padding: 10px 20px;
     border-radius: 10px;
