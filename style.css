@@ -39,13 +39,15 @@ a{
     color: black;
 }
 
-.sobre a{
+li a:hover{
     background-color: #5BC241;
     padding: 10px 8px;
     color: white;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
 }
 
-.cadastre-se a{
+li a.cadastre-se{
     background-color: #5BC241;
     padding: 10px 20px;
     border-radius: 10px;
